@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "vue",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"},
+    {"src": "api/src/*.js", "use": "@now/node"}
+  ],
+   "routes": [
+      {"src": "/favicon.ico", "dest": "/favicon.ico"},
+      {"src": "/api/(.*)", "dest": "/api/src/$1.js"},
+      { "handle": "filesystem" },
+      {"src": ".*", "dest": "/index.html"}
+    ]
+}
