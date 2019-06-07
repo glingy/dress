@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "vue",
+  "alias": "ask.yertle.ga",
   "builds": [
     {"src": "package.json", "use": "@now/static-build"},
     {"src": "api/src/*.js", "use": "@now/node"}
