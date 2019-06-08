@@ -1,5 +1,5 @@
 <template>
-  <p>This is a new nav test.</p>
+  <p>The nav is here!</p>
 
 </template>
 

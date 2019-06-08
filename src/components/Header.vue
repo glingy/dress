@@ -1,5 +1,5 @@
 <template>
-  <p>Hello World!</p>
+  <p>Welcome to the dress transfer site!</p>
 </template>
 
 <script>
