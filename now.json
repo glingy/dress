@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "vue",
+  "name": "dress",
   "alias": "dress.yertle.ga",
   "builds": [
     {"src": "package.json", "use": "@now/static-build"},
