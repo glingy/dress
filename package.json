@@ -5,7 +5,7 @@
   "scripts": {
     "build": "now",
     "now-build": "vue-cli-service build",
-    "dev": "concurrently --kill-others 'cd api && nodemon -x \"now dev\" -w now.json' 'vue-cli-service serve --port=3001'"
+    "dev": "concurrently --kill-others 'cd api && nodemon -x \"now dev -p 3001\" -w now.json' 'vue-cli-service serve --port=3000'"
   },
   "dependencies": {
     "vue": "^2.5.17",
